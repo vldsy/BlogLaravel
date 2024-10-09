@@ -8,7 +8,20 @@
   <title>Blog</title>
 </head>
 
-<body>
+<body class="bg-gray-200">
+  <nav class="p-6 bg-white flex justify-between">
+    <ul class="flex items-center">
+      <li>
+        <a class="p-3" href="">Home</a>
+      </li>
+      <li>
+        <a class="p-3" href="">Dashboard</a>
+      </li>
+      <li>
+        <a class="p-3" href="">Posts</a>
+      </li>
+    </ul>
+  </nav>
   @yield('content')
 </body>
 
